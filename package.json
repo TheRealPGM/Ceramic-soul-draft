@@ -1,24 +1,16 @@
 {
-  "name": "ceramic-soul",
+  "name": "ceramic_soul",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/TheRealPGM/Ceramic-soul-draft#readme",
-  "bugs": {
-    "url": "https://github.com/TheRealPGM/Ceramic-soul-draft/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TheRealPGM/Ceramic-soul-draft.git"
-  },
-  "license": "ISC",
-  "author": "Alex Slobodenyuk",
-  "type": "commonjs",
-  "main": "index.js",
+  "main": "vite.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "sass": "^1.97.3",
-    "vite": "^7.3.1"
+    "postcss-pxtorem": "^6.1.0",
+    "sass": "^1.84.0",
+    "vite": "^6.1.0"
   }
 }
