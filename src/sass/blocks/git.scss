@@ -1,10 +1,10 @@
 @use "/src/sass/base/variables.scss" as *;
 
 .git {
-    position: relative;
     padding-top: 60px;
 
     &__wrapper {
+        position: relative;
         margin-top: 59px;
     }
 
@@ -14,7 +14,7 @@
 
     &__form {
         height: 428px;
-        background-color: #ede8e9;
+        // background-color: #ede8e9;
     }
 
     &__btn {
@@ -60,4 +60,16 @@
             padding-left: 20px;
         }
     }
+}
+
+@media screen and (min-width: 1920px) {
+    .git {
+        &__col_right-padding {
+            padding-right: 147px;
+        }
+
+        &__col_left-padding {
+            padding-left: 75px;
+        }
+    }   
 }
